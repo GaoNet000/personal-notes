@@ -1,0 +1,64 @@
+HTML,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p,
+blockquote,
+pre,
+form,
+fieldset,
+table,
+th,
+td {
+    /* border:none; */
+    font-family: "微软雅黑", "黑体", "宋体";
+    /* font-size:14px; */
+    margin: 0px;
+    padding: 0px;
+}
+
+boby {
+    /* 水平对齐 */
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+div {
+    text-align: center;
+}
+
+li {
+    /* 值意味着不显示任何列表标记（如圆点、数字或自定义图像） */
+    list-style: none;
+}
+
+a {
+    /* 属性用于设置或移除文本装饰，如下划线、上划线、贯穿线等 */
+    text-decoration: none;
+}
+
+img {
+    /*  值在这里意味着不显示任何边框。这通常用于去除图像（<img>元素）默认的边框 */
+    border: none;
+}
+
+/* .header {
+    width: 100%;
+    height: 220px;
+    /* 超出容器部分隐藏 *
+    overflow: hidden;
+} */
+html {
+    background-color: #f1f1f1;
+}

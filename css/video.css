@@ -1,0 +1,30 @@
+.video-fanhui {
+    color: #000;
+}
+
+.video-1 {
+    /* border-top: 100px solid transparent;
+    border-left: 100px solid transparent; */
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* 当屏幕宽度大于1000px时，应用以下样式 */
+@media (min-width: 1200px) {
+    .video-1 {
+        width: 50%;
+        /* 屏幕宽度大于1000px时，宽度改为50% */
+    }
+}
+
+/* 当屏幕宽度小于500px时，应用以下样式 */
+@media (max-width: 499px) {
+    .video-1 {
+        width: 100%;
+        /* 屏幕宽度小于500px时，宽度设置为100% */
+    }
+}
+
+.fanhui {
+    border-left: 0px solid transparent;
+}
